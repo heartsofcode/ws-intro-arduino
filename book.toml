@@ -1,0 +1,7 @@
+[book]
+authors = ["lislis"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Intro to Arduino"
+description = "Material for an introductory workshop to Arduino."
