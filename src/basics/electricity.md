@@ -27,4 +27,41 @@ We've left out some things and glossed over some others. If you want to dig deep
 
 ## Voltage, current, resistance
 
-The main characteristics of electricity
+When we talk about electricity in the context of electronics and electric circuits, we mostly concern ourselves with three properties: Voltage, current and resistance.
+
+To help explain what each is what it's useful to know it, we'll use a common metaphor: water.
+
+Instead of a circular circuit, we'll have water flowing downhill. A river. Like that we'll have similar conditions as with electrical charge.
+
+### Voltage
+
+Voltage describes the amount of potential energy in a circuit, more precisely the difference of potential energy between two points. Electrons will flow from a high point of potential energy to the low point, just like water in a river will flow from a higher altitude point to a lower altitude point. In the water metaphor, voltage would be the pressure with which the water flows downhill. The higher the difference in altitude between two points in the river the higher the pressure.
+
+Voltage is measured in volts, using the letter **V** in schematics, named after [Alessandro Volta](https://en.wikipedia.org/wiki/Alessandro_Volta).
+
+### Current
+
+Current or flow is the amount of water that is in one point in the river at one point in time. Or the amount of electrons in one point in our circuit at one point in time. The higher the pressure or the voltage, the higher the current is going to be.
+
+Current is measured in amperes or amps for short. It uses the letter **I** in schematics, named after [André-Marie Ampère](https://en.wikipedia.org/wiki/Andr%C3%A9-Marie_Amp%C3%A8re).
+
+### Resistance
+
+Resistance in the water metaphor would be anything that limits the current of the river, let's say the riverbed get narrower and therefore not as much water can pass by as before. The pressure stays the same, just the amount of water is limited. In the electric circuit, the resistance is something that limits the amount of electrons, while leaving the voltage untouched.
+
+The physicist who described resistance (**R**) was [Georg Ohm](https://en.wikipedia.org/wiki/Georg_Ohm). Ohm says that 1 unit of resistance (or 1 **Ω** "Ohm"), is the resistance between two points, where one volt will push 1 ampere. So where one unit of  pressure will move a unit current.
+
+### Ohm's Law
+
+Putting the three together and into relation, we'll get Ohm's Law:
+
+`V = I * R`
+
+or
+
+`1V = 1A * 1Ω`
+
+Equipped with this formula we can calculate values in our circuit. Plus, knowing about these properties will help us understand how sensors manage to measure things. Exciting!
+
+
+Once again, [Sparkfun has a more detailed guide](https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law) with nice illustrations.
